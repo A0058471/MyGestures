@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         list=new ArrayList<>();
+        Log.i("str","ok");
 
         File file= Environment.getExternalStorageDirectory();
 //        File file=new File("/");
